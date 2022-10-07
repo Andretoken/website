@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main h1 {
+    font-weight: 600;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.nav {
+    align-items: center;
+}
+.nav a {
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.nav li:last-child {
+    background-color: #0000ff;
+    padding: 10px;
+    margin-left: 30px;
+    border-radius: 15px;
+    color: #ffffff;
+}
+.nav li:last-child a {
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+.nav a:hover {
+    color: #0000ff;
+}
+.nav a.active {
+    color: #0000ff;
+}
+.topNavigation {
+    background-color: #ffffff;
+    padding: 20px;
+}
+.topNavigation img {
+    width: 50px;
+    height: 50px;
+}
+.content {
+    background-image: url("/img/bg1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    padding-top: 100px;
+    position: relative;
+}
+.content h1 {
+    color: #000000 !important;
+    margin-bottom: 30px;
+}
+.content p {
+    color: #3b3a3a !important;
+    font-size: 1.4em;
+    font-weight: 350;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 50px;
+}
+.analytics {
+    background-color: #ffffff;
+    padding: 20px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box !important;
+}
+.analytics .row .col-md-2 {
+    align-items: center;
+    border-radius: 30px;
+}
+.col-md-2 img {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    align-items: center;
+    background-color: #D8F2FF;
+    border-radius: 30px;
+}
+.content p {
+    width: 70%;
+}
+.analytics h3 {
+    font-size: 0.9em;
+    margin-left: 10px;
+}
+.analytics p {
+    margin-left: 10px;
+    padding-bottom: 0px;
+}
+.study {
+    padding-top: 80px;
+    width: 50%;
+}
+.study h1 {
+    color: #000000;
+    font-size: 2.4em;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+.study h1 span {
+    font-size: 14px;
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: center;
+}
+.why-us {
+    padding: 50px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .content p {
+      font-size: 0.7em;
+      font-weight: 600;
+      color: #ffffff;
+      width: 80%;
+    }
+    .content h1 {
+        font-size: 2.3em;
+        color: #ffffff;
+    }
+    .content p {
+        width: 100%;
+    }
+    .analytics {
+        width: 100%;
+    }
+}
