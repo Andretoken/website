@@ -177,6 +177,7 @@ body {
 .demo-card-image img {
     border-radius: 20px;
     width: 99%;
+    height: 300px;
 }
 .demo-card-tags {
     padding: 5px;
