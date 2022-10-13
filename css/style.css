@@ -275,9 +275,40 @@ body {
     border: 0;
     color: #D8F2FF !important;
 }
+.vision {
+    padding: 50px;
+    
+}
+.vision .col-md img {
+    width: 99%;
+    align-items: center;
+}
+.vision-title h1 {
+    font-weight: 600;
+}
+.vision-title a {
+    text-decoration: none;
+    padding: 8px 26px 8px 26px;
+    background-color: #0d2138;
+    border-radius: 5px;
+    color: #2fb9fd !important;
+}
+.rrr {
+    display: flex;
+    align-items: center;
+}
+.vision-title {
+    padding: 30px;
+}
+.xxx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /*
-*   Footer Style
+*   Footer style
+*   background-color: #B2D4FB;
 */
 
 .footer {
@@ -372,5 +403,14 @@ body {
     }
     .finder {
         padding: 20px;
+    }
+    .vision {
+        padding: 20px;
+    }
+    .vision-title {
+        padding: 0px;
+    }
+    .rrr {
+        margin-bottom: 50px;
     }
 }
