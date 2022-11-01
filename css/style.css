@@ -501,7 +501,7 @@ body {
     }
     .MobileNavigation ul li:last-child {
         border-bottom: 0;
-        margin-top: 50vh;
+        margin-top: 60%;
     }
     .MobileNavigation ul li a {
         text-decoration: none;
@@ -514,6 +514,8 @@ body {
         color: #d2e9f8;
         padding: 10px 20px;
         border-radius: 5px;
+        position: inherit;
+        width: 300px;
     }
     .MobileNavigation ul li #buy:hover, .MobileNavigation ul li #buy:focus {
         background-color: #d2e9f8;
