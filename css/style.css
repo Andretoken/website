@@ -161,7 +161,6 @@ body {
 .why-us .row .col-md {
     margin-top: 30px;
 }
-
 .demo {
     background-color: #D8F2FF;
     padding: 20px;
@@ -241,10 +240,12 @@ body {
 }
 
 .final {
-    background-image: url("../img/house3.webp");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px;
+    background-color: #257db8;
+    color: #eeeefc;
+    font-family: 'Poppins', sans-serif;
 }
 .banner {
     background-image: url("../img/mortgage.jpeg");
@@ -304,6 +305,30 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.final .row .col-md img {
+    width: 100%;
+}
+.final .row .col-md {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.final .row .col-md h1 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+.final .row .col-md a {
+    color: #000000;
+    text-decoration: none;
+    background-color: #D8F2FF;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.final .row .col-md a:hover, .final .row .col-md a:focus {
+    background-color: #0000ff;
+    color: #D8F2FF;
 }
 
 /*
@@ -369,6 +394,9 @@ body {
 .footer .hr a {
     font-family: 'Poppins', sans-serif;
 }
+.MobileNavigation {
+    display: none;
+}
 
 @media only screen and (max-width: 1000px) {
     .content p {
@@ -412,5 +440,85 @@ body {
     }
     .rrr {
         margin-bottom: 50px;
+    }
+    .final {
+        padding: 20px;
+    }
+    .final .row .col-md {
+        margin-bottom: 20px;
+    }
+    .final .row .col-md:first-of-type {
+        float: left;
+        display: block;
+    }
+    .topNavigation {
+        display: none;
+    }
+    .MobileNavigation {
+        padding-left: 20px;
+        padding-right: 20px;
+        display: block;
+    }
+    .MobileNavigation .col-md:first-of-type {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        align-items: center;
+    }
+    .MobileNavigation .col-md:last-of-type {
+        padding: 0;
+        padding-top: 30px;
+        display: none;
+    }
+    .MobileNavigation .row .col-md img:first-child {
+        width: 50px;
+        height: 50px;
+    }
+    .MobileNavigation .row .col-md img:last-child {
+        float: right;
+        margin-top: 10px;
+    }
+    .MobileNavigation .row .col-md img:last-child:hover {
+        background-color: #Ffffff;
+        border: 2px solid #7bb6dd;
+        border-radius: 5px;
+    }
+    .MobileNavigation .row .col-md #MenuClose {
+        float: right;
+        display: none;
+        margin-top: 10px;
+    }
+    .MobileNavigation .row .col-md #MenuClose:hover {
+        background-color: #Ffffff;
+        border: 2px solid #7bb6dd;
+        border-radius: 5px;
+    }
+    .MobileNavigation ul li {
+        list-style: none;
+        border-bottom: 1px solid #ccc;
+        padding: 10px;
+        padding-left: 0;
+        margin-right: 30px;
+    }
+    .MobileNavigation ul li:last-child {
+        border-bottom: 0;
+        margin-top: 50vh;
+    }
+    .MobileNavigation ul li a {
+        text-decoration: none;
+        font-size: 1.5em;
+        color: #3b3a3a;
+        font-weight: 600;
+    }
+    .MobileNavigation ul li #buy {
+        background-color: #0000ff;
+        color: #d2e9f8;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+    .MobileNavigation ul li #buy:hover, .MobileNavigation ul li #buy:focus {
+        background-color: #d2e9f8;
+        border: 2px solid #0000ff;
+        color: #3b3a3a;
+
     }
 }
