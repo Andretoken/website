@@ -67,6 +67,7 @@ body {
 .content h1 {
     color: #000000 !important;
     margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
 }
 .content p {
     color: #3b3a3a !important;
@@ -408,6 +409,50 @@ body {
 .MobileNavigation {
     display: none;
 }
+.roadmap {
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+.design {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ring {
+    background-color: #4F00E2;
+    border-radius: 360px;
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EFE7FF;
+}
+.line {
+    background-color: #4F00E2;
+    padding: 4px;
+    height: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+}
+.design-text ul li {
+    list-style: none;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.design-text ul li:first-child {
+    margin-top: 10px;
+}
+.design-text ul li img {
+    width: 30px;
+    height: 30px;
+}
+#design-text1, #design-text2 {
+    text-align: right;
+}
 
 @media only screen and (max-width: 1000px) {
     .content p {
@@ -428,6 +473,16 @@ body {
     }
 }
 @media only screen and (max-width: 768px){
+    .content {
+        padding: 35px;
+    }
+    .content h1 {
+        font-size: 2.5em;
+        font-weight: 700;
+    }
+    .content p {
+        font-size: 0.8em;
+    }
     .sitemap .row .col-md {
         margin-top: 50px;
     }
