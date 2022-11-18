@@ -403,6 +403,9 @@ body {
     font-size: 0.8em;
     padding: 10px;
 }
+.vision-title h1 {
+    font-family: 'Poppins', sans-serif;
+}
 .footer .hr a {
     font-family: 'Poppins', sans-serif;
 }
@@ -452,6 +455,9 @@ body {
 }
 #design-text1, #design-text2 {
     text-align: right;
+}
+.andre-aim {
+    background-color: #f0f3ff;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -589,5 +595,8 @@ body {
         border: 2px solid #0000ff;
         color: #3b3a3a;
 
+    }
+    .why-us {
+        padding: 30px;
     }
 }
