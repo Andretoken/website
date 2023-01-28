@@ -1,0 +1,106 @@
+.andre-demo-nav {
+    padding: 10px 20px;
+    display: flex;
+    border-bottom: 1px solid #808080;
+}
+.andre-demo-nav .logo {
+    display: flex;
+    justify-content: center;
+}
+.andre-demo-nav .logo a {
+    color: #5270FE;
+}
+.andre-demo-nav .logo label {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #5270FE;
+}
+.demo-nav-item {
+    position: relative;
+    float: right;
+    width: 70%;
+}
+.demo-nav-item ul {
+    float: right;
+}
+.demo-nav-item ul li {
+    list-style: none;
+    display: inline-block;
+}
+.demo-nav-item ul li a {
+    color: #757575;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.demo-nav-item ul li:last-child a {
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+.demo-nav-item ul li:last-child img {
+    width: 30px;
+    height: 30px;
+}
+
+.display-window {
+    padding: 0px;
+    margin: 0px;
+    width: 98%;
+}
+.display-window .row .col-md-4 {
+    padding: 0;
+    margin: 0;
+}
+.display-window .row .col-md-4:first-of-type {
+    background-color: #ffffff;
+}
+.display-window .row .col-md-4:first-of-type ul li:first-child {
+    background-color: #5270FE;
+    color: #ffffff;
+    border: 1px solid #fff;
+}
+.display-window .row .col-md-4:first-of-type ul li:first-child a {
+    color: #fff;
+}
+.display-window .row .col-md-4:first-of-type ul li a {
+    color: #989898;
+}
+.display-window .row .col-md-4 ul li {
+    list-style: none;
+    padding: 10px;
+    border: 1px solid #757575;
+    margin: 0;
+}
+.display-window .row .col-md-4 ul li img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+.display-window .row .col-md:last-of-type {
+    background-color: #EBF6FF;
+
+}
+.properties {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow:  0px 2px 4px 0px #7F646464;
+    margin-top: 30px;
+}
+.properties-ring {
+    padding: 5px;
+}
+.properties-ring .row .col-md {
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    background-image: url('../img/ringbg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.properties-ring .row .col-md:last-of-type {
+    background-color: #ffffff;
+}
