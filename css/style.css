@@ -2,13 +2,26 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+::-webkit-scrollbar {
+    width: 0px;
+}
 
 html {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding: 10px;
+    scroll-margin: 5px;
+    scrollbar-color: #0000ff;
+    scrollbar-width: 2px;
 }
 body {
     background-color: #ffffff;
+    scroll-behavior: smooth;
+    scroll-padding: 10px;
+    scroll-margin: 5px;
+    scrollbar-color: #0000ff;
+    scrollbar-width: 2px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .main h1 {
@@ -232,9 +245,26 @@ body {
 .finder {
     padding: 40px;
 }
-div.slidex {
-    overflow-y: auto;
-    overflow-x: hidden;
+div.slidex .rows {
+    display: flex;
+    flex-wrap: no-wrap;
+    overflow-x: scroll !important;
+    margin: 20px;
+    overflow-y: auto !important;
+}
+.div.slidex .rows .col-md {
+    flex: 0 0 auto;
+    width: 300px;
+    height: 100px;
+    margin-right: 10px;
+}
+div.slidex .rows h3 {
+    font-family: 'IBM Plex Mono', monospace;
+}
+div.slidex .rows .col-md .finder-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .finder .finder-card {
     box-sizing: border-box;
