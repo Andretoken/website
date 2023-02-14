@@ -232,6 +232,10 @@ body {
 .finder {
     padding: 40px;
 }
+div.slidex {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
 .finder .finder-card {
     box-sizing: border-box;
     box-shadow: 0px 2px 4px rgba(100,100,100,0.5);
