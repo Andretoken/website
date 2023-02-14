@@ -5,7 +5,6 @@ var MenuBtn = document.getElementById('MenuBtn');
 var MenuClose = document.getElementById('MenuClose');
 
 function MenuNavigation() {
-    // alert(width);
     MobileNavContent.style.display = 'block';
     MenuBtn.style.display = 'none';
     MenuClose.style.display = 'block';
