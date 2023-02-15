@@ -2,8 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-::-webkit-scrollbar {
+html::-webkit-scrollbar {
     width: 0px;
+}
+html::-webkit-scrollbar-track {
+    background-color: #0000ff;
+}
+html::-webkit-scrollbar-thumb {
+    background: #000000;
+    border-radius: 25px;
 }
 
 html {
@@ -252,11 +259,24 @@ div.slidex .rows {
     margin: 20px;
     overflow-y: auto !important;
 }
-.div.slidex .rows .col-md {
-    flex: 0 0 auto;
-    width: 300px;
-    height: 100px;
-    margin-right: 10px;
+div.slidex .rows::-webkit-scrollbar {
+    width: auto;
+    height: 5px;
+}
+div.slidex .rows::-webkit-scrollbar-thumb {
+    background-color: #0000ff;
+    border-radius: 24px;
+    margin: 20px;
+}
+div.slidex .rows::-webkit-scrollbar-track {
+    background: #c7c7c7;
+    border-radius: 24px;
+}
+.slidex .finder-card {
+    height: 550px;
+    width: 330px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 div.slidex .rows h3 {
     font-family: 'IBM Plex Mono', monospace;
@@ -530,6 +550,12 @@ div.slidex .rows .col-md .finder-img {
     .content p {
         width: 100%;
     }
+    .slidex .finder-card {
+        height: 550px;
+        width: 330px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
     .analytics {
         width: 100%;
     }
@@ -557,6 +583,12 @@ div.slidex .rows .col-md .finder-img {
     }
     .finder .finder-card {
         margin-top: 30px;
+    }
+    .slidex .finder-card {
+        height: 550px;
+        width: 330px;
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
     .finder {
         padding: 20px;
