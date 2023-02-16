@@ -543,6 +543,9 @@ div.slidex .rows .col-md .finder-img {
       color: #ffffff;
       width: 80%;
     }
+    #andrepay, #andreplay, #andrep2p, #andrenft {
+        margin-left: 50px;
+    }
     .content h1 {
         font-size: 2.3em;
         color: #ffffff;
@@ -589,6 +592,16 @@ div.slidex .rows .col-md .finder-img {
         width: 330px;
         margin-bottom: 10px;
         margin-top: 10px;
+    }
+    div.slidex .finder-card {
+        position: relative;
+        background-color: #ecf9ff;
+    }
+    div.slidex .rows .finder-card {
+        position: relative !important;
+    }
+    #andrepay, #andreplay, #andrep2p, #andrenft {
+        margin-left: 120px;
     }
     .finder {
         padding: 20px;
