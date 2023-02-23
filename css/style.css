@@ -482,6 +482,15 @@ div.slidex .rows .col-md .finder-img {
 .footer .hr a {
     font-family: 'Poppins', sans-serif;
 }
+.footer .row .col-md-6 a {
+    font-size: 1.4em;
+    font-weight: 600;
+}
+.footer .row .col-md-6 a:hover,
+.footer .row .col-md-6 a:focus {
+    color: #d2e9f8;
+    text-decoration: none; 
+}
 .MobileNavigation {
     display: none;
 }
