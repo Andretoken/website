@@ -23,7 +23,6 @@ html {
     scrollbar-width: 2px;
 }
 body {
-    display: none;
     background-color: #ffffff;
     scroll-behavior: smooth;
     scroll-padding: 10px;
